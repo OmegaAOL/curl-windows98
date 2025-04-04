@@ -1,6 +1,10 @@
 # cURL 7.42.1 build (using OpenSSL 1.0.2u) that runs on unmodified Windows 98
 
-If you want to link other Windows 98 programs to OpenSSL, check out thhis project's sister repository openssl-windows98.
+If you want to link other Windows 98 programs to OpenSSL, check out this project's sister repository openssl-windows98.
+
+**NOTE: YOU NEED TO LINK TO THE CERTIFICATE FILE https://curl.se/ca/cacert.pem IN AUTOEXEC.BAT, TEMPORARY ENVIRONMENT VARIABLES, OR BY RUNNING COMMANDS WITH THE FLAG AND PATH: curl --cacert C:\curl\cacert.pem https://example.com.
+This is not a Windows 98 issue of outdated certificates, this applies on any platform where you install cURL (even Windows 11, if you don't have cURL installed by default). cURL does not use the Windows certificate store
+for any version of cURL or Windows.**
 
 This build does not support SSH file transfer, zlib data decompression, or ldap:// file directory scraping. These are all easy to implement and planned in a future release.
 
