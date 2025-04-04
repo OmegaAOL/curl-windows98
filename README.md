@@ -1,4 +1,4 @@
-# cURL 7.42.1 build executable (using OpenSSL 1.0.2u) that runs on unmodified Windows 98
+# cURL 7.42.1 build (using OpenSSL 1.0.2u) that runs on unmodified Windows 98
 
 If you want to link other Windows 98 programs to OpenSSL, check out thhis project's sister repository openssl-windows98.
 
