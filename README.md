@@ -2,9 +2,9 @@
 
 If you want to link other Windows 98 programs to OpenSSL, check out this project's sister repository openssl-windows98.
 
-**NOTE: YOU NEED TO LINK TO THE CERTIFICATE FILE https://curl.se/ca/cacert.pem IN AUTOEXEC.BAT ENVIRONMENT VARIABLES, TEMPORARY ENVIRONMENT VARIABLES, OR BY RUNNING COMMANDS WITH THE FLAG AND PATH "--cacert C:\your\path\here\cacert.pem".
+**IMPORTANT! IMPORTANT! IMPORTANT:** You need to link to a cert file (get it at "https://curl.se/ca/cacert.pem") with environment variables in autoexec.bat or in session, OR by using the flag "--cacert C:\your\path\here\cacert.pem".
 This is not a Windows 98 issue of outdated certificates, this applies on any platform where you install cURL (even Windows 11, if you don't have cURL installed by default). cURL does not use the Windows certificate store
-for any version of cURL or Windows.**
+for any version of cURL or Windows. Do thos before raising an issue when your connection is closed with "certificate store not found".
 
 This build does not support SSH file transfer, zlib data decompression, or ldap:// file directory scraping. These are all easy to implement and planned in a future release.
 
