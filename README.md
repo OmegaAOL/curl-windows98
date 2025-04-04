@@ -2,6 +2,8 @@
 
 If you want to link other Windows 98 programs to OpenSSL, check out thhis project's sister repository openssl-windows98.
 
+This build does not support SSH file transfer, zlib data decompression, or ldap:// file directory scraping. These are all easy to implement and planned in a future release.
+
 This version of cURL has identical syntax to the newer versions, and uses OpenSSL 1.0.2u (the latest possible for this version, while this version of cURL
 is the earliest possible cURL version that supports 1.0.2). **What this means is that you have TLS 1.2 support and a modern SSL protocol that should give
 you access to virtually all websites without throwing up nasty unsupported security protocol errors.**
