@@ -6,7 +6,7 @@ If you want to link other Windows 98 programs to OpenSSL, check out this project
 This is not a Windows 98 issue of outdated certificates, this applies on any platform where you install cURL (even Windows 11, if you don't have cURL installed by default). cURL does not use the Windows certificate store
 for any version of cURL or Windows. Do thos before raising an issue when your connection is closed with "certificate store not found".
 
-This build does not support SSH. For some reason Windows 98 doesn't like libssh2.
+This build does not support zlib or SSH. For some reason Windows 98 doesn't like libssh2.
 
 This version of cURL has identical syntax to the newer versions, and uses OpenSSL 1.0.2u (the latest possible for this version, while this version of cURL
 is the earliest possible cURL version that supports 1.0.2). **What this means is that you have TLS 1.2 support and a modern SSL protocol that should give
