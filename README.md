@@ -1,6 +1,6 @@
 # cURL 7.42.1 build (using OpenSSL 1.0.2u) that runs on unmodified Windows 98
 
-* If you're a developer who wants to create .NET programs for Windows 98, add all the files in the "LibCurl.NET + libraries" to your output directory, and add LibCurl.NET as a reference. If you want an example on how to use LibCurl.NET, check out the SkyBridge.cs file included (it doesn't compile on its own, and is part of a different project, but the code inside it will show you how to use the library)
+* If you're a developer who wants to create .NET programs for Windows 98, you do not need the cURL build in Releases. Instead, add all the files in the "LibCurl.NET + libraries" folder (located in this repository's source) to your output directory, and add LibCurl.NET as a reference. If you want an example on how to use LibCurl.NET, check out the SkyBridge.cs file included (it doesn't compile on its own, and is part of a different project, but the code inside it will show you how to use the library)
 
 * If you want to link other Windows 98 programs to OpenSSL, check out this project's sister repository openssl-windows98.
 
