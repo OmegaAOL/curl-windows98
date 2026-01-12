@@ -1,6 +1,8 @@
 # cURL 7.42.1 build (using OpenSSL 1.0.2u) that runs on unmodified Windows 98
 
-If you want to link other Windows 98 programs to OpenSSL, check out this project's sister repository openssl-windows98.
+* If you're a developer who wants to create .NET programs for Windows 98, add all the files in the "LibCurl.NET + libraries" to your output directory, and add LibCurl.NET as a reference. If you want an example on how to use LibCurl.NET, check out the SkyBridge.cs file included (it doesn't compile on its own, and is part of a different project, but the code inside it will show you how to use the library)
+
+* If you want to link other Windows 98 programs to OpenSSL, check out this project's sister repository openssl-windows98.
 
 **IMPORTANT! IMPORTANT! IMPORTANT:** You need to link to a cert file (get it at "https://curl.se/ca/cacert.pem") with environment variables in autoexec.bat or in session, OR by using the flag "--cacert C:\your\path\here\cacert.pem".
 This is not a Windows 98 issue of outdated certificates, this applies on any platform where you install cURL (even Windows 11, if you don't have cURL installed by default). cURL does not use the Windows certificate store
